@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=PT+Serif&family=Plus+Jakarta+Sans:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+body{
+    width: 80%;
+    margin: auto;
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    position: relative;
+    margin-top: 2%;
+}
+#nav>img{
+    width: 5%;
+}
+#nav>div{
+    text-transform: uppercase;
+    background-color: rgba(245, 245, 245, 0.06);
+    backdrop-filter: blur(30px);
+    padding-left: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    font-size: 14px;
+}
+hr+div>div{
+    padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+span{
+    font-weight: 300;
+}
+hr{
+    width: 37%;
+    position: absolute;
+    left: 7%;
+    top: 43%;
+    z-index: 100;
+    border: 0.1px solid #9397b25d;
+}
+#page{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding-top: 15%;
+}
+#page>div:last-child{
+    background-color: #edede8;
+    border-radius: 100%;
+    width: 25%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+}
+h5{
+    color: #c3c6d7;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    margin-bottom: -10%;
+    font-weight: 500;
+}
+h1{
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+}
+p{
+    width: 60%;
+    color: #c3c6d7;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    margin-top: -10%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+h4{
+    font-size: 32px;
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+}
