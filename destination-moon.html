@@ -3,35 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="common.css">
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body id="dest">
+  <div id="nav">
+    <img src="./assets/shared/logo.svg" alt="Logo">
+    <hr>
+    <div id="anc">
+      <div><a href="./index.html">00 <span>Home</span></a></div>
+      <div><a href="./destination-moon.html">01 <span>Destination</span></a></div>
+      <div><a href="./crew-commander.html">02 <span>Crew</span></a></div>
+      <div><a href="./technology-vehicle.html">03 <span>Technology</span></a></div>
+    </div>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div id="destPage">
+    <div>
+      <h5>01 <span>pick your destination</span></h5>
+      <img src="./assets/destination/image-moon.png" alt="Moon">
+    </div>
+    <div>
+      <div id="cat">
+        <div><a href="./destination-moon.html">moon</a></div>
+        <div><a href="./destination-mars.html">mars</a></div>
+        <div><a href="./destination-europa.html">europa</a></div>
+        <div><a href="./destination-titan.html">titan</a></div>
+      </div>
+      <h2>moon</h2>
+      <p></p>
+      <hr>
+      <div>
 
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Moon
-
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
+<script>
+  let div1 = document.querySelector("#anc>div:nth-child(1)");
+  div1.addEventListener("click",function(){
+    div1.style.borderBottom = "3px solid white";
+  });
+  let div2 = document.querySelector("#anc>div:nth-child(2)");
+  div2.addEventListener("click",function(){
+    div2.style.borderBottom = "3px solid white";
+  });
+  let div3 = document.querySelector("#anc>div:nth-child(3)");
+  div3.addEventListener("click",function(){
+    div3.style.borderBottom = "3px solid white";
+  });
+  let div4 = document.querySelector("#anc>div:nth-child(4)");
+  div4.addEventListener("click",function(){
+    div4.style.borderBottom = "3px solid white";
+  });
+
+  let anc1 = document.querySelector("#cat>div:nth-child(1)");
+  anc1.addEventListener("click",function(){
+    anc1.style.borderBottom = "3px solid white";
+  });
+  let anc2 = document.querySelector("#cat>div:nth-child(2)");
+  anc2.addEventListener("click",function(){
+    anc2.style.borderBottom = "3px solid white";
+  });
+  let anc3 = document.querySelector("#cat>div:nth-child(3)");
+  anc3.addEventListener("click",function(){
+    anc3.style.borderBottom = "3px solid white";
+  });
+  let anc4 = document.querySelector("#cat>div:nth-child(4)");
+  anc4.addEventListener("click",function(){
+    anc4.style.borderBottom = "3px solid white";
+  });
+</script>
