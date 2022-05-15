@@ -84,7 +84,7 @@ hr{
     align-items: center;
     padding: 8%;
 }
-.h5{
+#homePage .h5{
     color: #c3c6d7;
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
@@ -93,13 +93,13 @@ hr{
     margin-bottom: 20%;
     font-weight: 500;
 }
-.h1{
+#homePage .h1{
     color: rgb(255,255,255);
     text-transform: uppercase;
     font-family: 'Bellefair', serif;
     font-size: 150px;
 }
-p{
+#homePage p{
     width: 70%;
     color: #c3c6d7;
     /* font-family: 'Barlow Condensed', sans-serif; */
@@ -171,6 +171,46 @@ p{
     border-bottom: 3px solid rgba(255, 255, 255, 0.326);
     cursor: pointer;
 }
+#destPage hr{
+    width: 35%;
+    margin-left: 50%;
+    top: 90%;
+}
+.h2{
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    margin-top: 5%;
+}
+.h2+p{
+    width: 100%;
+    color: #c3c6d7;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: -12%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#infoPlanet{
+    margin-top: 10%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+#infoPlanet>div>p:first-child{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2.35px;
+    margin: 0%;
+    margin-bottom: 5%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#infoPlanet>div>p:last-child{
+    font-size: 28px;
+    color: white;
+    margin: 0%;
+    font-family: 'Bellefair', serif;
+}
 
 
 /* Crew Page */
@@ -182,6 +222,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 
 /* Technology page */
