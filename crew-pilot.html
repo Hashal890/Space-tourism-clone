@@ -5,24 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="common.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body id="crew">
+  <div id="nav">
+    <img src="./assets/shared/logo.svg" alt="Logo">
+    <hr>
+    <div id="anc">
+      <div><a href="./index.html">00 <span>Home</span></a></div>
+      <div><a href="./destination-moon.html">01 <span>Destination</span></a></div>
+      <div><a href="./crew-commander.html">02 <span>Crew</span></a></div>
+      <div><a href="./technology-vehicle.html">03 <span>Technology</span></a></div>
+    </div>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  02 Meet your crew
-
-  Pilot
-  Victor Glover
-
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
+  <div id="crewPage">
+    <div>
+      <h5>02<span>Meet your crew</span></h5>
+      <div id="midPage">
+        <p>Pilot</p>
+        <p>Victor Glover</p>
+        <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.</p>
+        <div id="carousel">
+          <a href="./crew-commander.html"></a>
+          <a href="./crew-specialist.html"></a>
+          <a href="./crew-pilot.html"></a>
+          <a href="./crew-engineer.html"></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="./assets/crew/image-victor-glover.png" alt="Crew">
+    </div>
+  </div>
 </body>
 </html>
+
+<script>
+  let div1 = document.querySelector("#anc>div:nth-child(1)");
+  div1.addEventListener("click",function(){
+    div1.style.borderBottom = "3px solid white";
+  });
+  let div2 = document.querySelector("#anc>div:nth-child(2)");
+  div2.addEventListener("click",function(){
+    div2.style.borderBottom = "3px solid white";
+  });
+  let div3 = document.querySelector("#anc>div:nth-child(3)");
+  div3.addEventListener("click",function(){
+    div3.style.borderBottom = "3px solid white";
+  });
+  let div4 = document.querySelector("#anc>div:nth-child(4)");
+  div4.addEventListener("click",function(){
+    div4.style.borderBottom = "3px solid white";
+  });
+</script>

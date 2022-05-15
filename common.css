@@ -121,6 +121,114 @@ hr{
     transition: border-width 0.2s linear;
 }
 
+@media all and (min-width:350px) and (max-width:800px){
+    #home{
+        width: 100%;
+        margin: 0%;
+        background-image: url(./assets/home/background-home-tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    #nav>div{
+        padding-left: 2%;
+        width: 35%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+        font-size: 14px;
+        background-color: transparent;
+    }
+    #nav>img{
+        width: 4%;
+        margin-left: -4%;
+    }
+    hr{
+        display: none;
+    }
+    #homePage{
+        width: 100%;
+        margin: 0%;
+        flex-direction: column;
+        padding-top: 20%;
+        text-align: center;
+    }
+    #homePage>div:first-child{
+        width: 100%;
+        margin-left: 15%;
+    }
+    #homePage>div:last-child{
+        background-color: #edede8;
+        border-radius: 100%;
+        width: 40%;
+        height: auto;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin: auto;
+    }
+    #homePage .h5{
+        color: #c3c6d7;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 28px;
+        letter-spacing: 4.75px;
+        margin-bottom: 20%;
+        font-weight: 500;
+    }
+    #homePage .h1{
+        color: rgb(255,255,255);
+        text-transform: uppercase;
+        font-family: 'Bellefair', serif;
+        font-size: 100px;
+    }
+    #homePage p{
+        width: 70%;
+        color: #c3c6d7;
+        /* font-family: 'Barlow Condensed', sans-serif; */
+        font-size: 16px;
+        line-height: 35px;
+        margin-top: -7%;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    #homePage h4{
+        font-size: 32px;
+        font-family: 'PT Serif', serif;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    #homePage>div:last-child:hover{
+        cursor: pointer;
+        border: 50px solid rgb(66, 66, 66);
+        transition: border-width 0.2s linear;
+    }
+}
+@media all and (min-width:800px) and (max-width:1030px){
+    #home{
+        width: 100%;
+        margin: 0%;
+        background-image: url(./assets/home/background-home-tablet.jpg);
+    }
+    hr{
+        display: none;
+    }
+    #homePage{
+        width: 100%;
+        margin: 0%;
+        flex-direction: column;
+        padding-top: 20%;
+        text-align: center;
+    }
+    #homePage>div:first-child{
+        width: 100%;
+        margin-left: 15%;
+    }
+    #homePage>div:last-child{
+        background-color: #edede8;
+        border-radius: 100%;
+        width: 20%;
+        height: 60%;
+        margin-top: 15%;
+    }
+}
+
 
 /* Destination Page */
 
@@ -153,6 +261,7 @@ hr{
     font-weight: 100;
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 4.75px;
+    margin-left: 3%;
 }
 #destPage img{
     height: 70%;
@@ -216,6 +325,13 @@ hr{
     font-family: 'Bellefair', serif;
 }
 
+@media all and (min-width:350px) and (max-width:800px){
+    
+}
+@media all and (min-width:800px) and (max-width:1030px){
+
+}
+
 
 /* Crew Page */
 
@@ -226,21 +342,81 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#crew h5{
+#crewPage{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 3%;
+}
+#crewPage h5{
     color: #50525a;
     text-transform: uppercase;
     font-size: 24px;
     letter-spacing: 1px;
     font-weight: bolder;
-    margin-bottom: 5%;
+    margin-bottom: 25%;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-#crew span{
+#crewPage span{
     font-size: 28px;
     color: whitesmoke;
     font-weight: 100;
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 4.75px;
+    margin-left: 3%;
+}
+#crewPage>div:first-child{
+    width: 60%;
+}
+#midPage>p:first-child{
+    color: gray;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Bellefair', serif;    
+    text-transform: uppercase;
+}
+#midPage>p:nth-child(2){
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Bellefair', serif;    
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+#midPage>p:nth-child(3){
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#carousel{
+    display: flex;
+    gap: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#carousel>a{
+    background-color: #363842;
+    padding: 1.5%;
+    border-radius: 100%;
+}
+#carousel>a:hover{
+    background-color: white;
+}
+#crewPage>div:last-child{
+    width: 40%;
+    margin-left: 5%;
+}
+#crewPage>div:last-child>img{
+    width: 100%;
+}
+
+@media all and (min-width:350px) and (max-width:800px){
+    
+}
+@media all and (min-width:800px) and (max-width:1030px){
+
 }
 
 
@@ -272,6 +448,7 @@ hr{
     font-weight: 100;
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 4.75px;
+    margin-left: 3%;
 }
 #mainBody{
     display: flex;
@@ -333,4 +510,11 @@ hr{
 }
 img{
     width: 100%;
+}
+
+@media all and (min-width:350px) and (max-width:800px){
+    
+}
+@media all and (min-width:800px) and (max-width:1030px){
+
 }
