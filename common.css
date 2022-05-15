@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=PT+Serif&family=Plus+Jakarta+Sans:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
 
 
+
 /* Nav Bar */
 
 #nav{
@@ -140,15 +141,18 @@ hr{
 #destPage h5{
     color: #50525a;
     text-transform: uppercase;
-    font-size: 28px;
-    letter-spacing: 4.75px;
-    font-weight: 900;
-    margin-bottom: 20%;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 #destPage span{
+    font-size: 28px;
     color: whitesmoke;
     font-weight: 100;
     font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75px;
 }
 #destPage img{
     height: 70%;
@@ -222,7 +226,22 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#crew h5{
+    color: #50525a;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#crew span{
+    font-size: 28px;
+    color: whitesmoke;
+    font-weight: 100;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75px;
+}
 
 
 /* Technology page */
@@ -233,4 +252,85 @@ hr{
     background-image: url(./assets/technology/background-technology-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+#techPage{
+    width: 90%;
+    margin-left: 10%;
+}
+#techPage h5{
+    color: #50525a;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#techPage span{
+    font-size: 28px;
+    color: whitesmoke;
+    font-weight: 100;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75px;
+}
+#mainBody{
+    display: flex;
+    gap: 6%;
+}
+#num{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+#num>a{
+    color: white;
+    border: 1px solid #3f414a;
+    border-radius: 100%;
+    font-size: 32px;
+    width: 30%;
+    padding: 20%;
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+}
+#num>a:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+#para{
+    width: 42%;
+    margin-top: 4%;
+}
+#para>p:first-child{
+    color: #c3c6d7;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+}
+#para>p:nth-child(2){
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Bellefair', serif;    
+    text-transform: uppercase;
+    margin: 0%;
+}
+#para>p:last-child{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#mainBody>div:last-child{
+    width: 42%;
+}
+img{
+    width: 100%;
 }

@@ -3,30 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="common.css">
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body id="tech">
+  <div id="nav">
+    <img src="./assets/shared/logo.svg" alt="Logo">
+    <hr>
+    <div id="anc">
+      <div><a href="./index.html">00 <span>Home</span></a></div>
+      <div><a href="./destination-moon.html">01 <span>Destination</span></a></div>
+      <div><a href="./crew-commander.html">02 <span>Crew</span></a></div>
+      <div><a href="./technology-vehicle.html">03 <span>Technology</span></a></div>
+    </div>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  03 Space launch 101
-
-  1
-  2
-  3
-
-  The terminology...
-  Spaceport
-
-  A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
-  by analogy to the seaport for ships or airport for aircraft. Based in the 
-  famous Cape Canaveral, our spaceport is ideally situated to take advantage 
-  of the Earth’s rotation for launch.
+  <div id="techPage">
+    <h5>03 <span>Space launch 101</span></h5>
+    <div id="mainBody">
+      <div id="num">
+        <a href="./technology-vehicle.html">1</a>
+        <a href="./technology-spaceport.html">2</a>
+        <a href="./technology-capsule.html">3</a>
+      </div>
+      <div id="para">
+        <p>the terminology...</p>
+        <p>Spaceport</p>
+        <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+      </div>
+      <div><img src="./assets/technology/image-spaceport-portrait.jpg" alt="launch"></div>
+    </div>
+  </div>
 </body>
 </html>
+
+<script>
+  let div1 = document.querySelector("#anc>div:nth-child(1)");
+  div1.addEventListener("click",function(){
+    div1.style.borderBottom = "3px solid white";
+  });
+  let div2 = document.querySelector("#anc>div:nth-child(2)");
+  div2.addEventListener("click",function(){
+    div2.style.borderBottom = "3px solid white";
+  });
+  let div3 = document.querySelector("#anc>div:nth-child(3)");
+  div3.addEventListener("click",function(){
+    div3.style.borderBottom = "3px solid white";
+  });
+  let div4 = document.querySelector("#anc>div:nth-child(4)");
+  div4.addEventListener("click",function(){
+    div4.style.borderBottom = "3px solid white";
+  });
+</script>
