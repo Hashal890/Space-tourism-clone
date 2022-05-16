@@ -22,8 +22,12 @@
   </div>
 
   <div id="crewPage">
-    <div>
-      <h5>02<span>Meet your crew</span></h5>
+    <h5>02<span>Meet your crew</span></h5>
+    <div id="flexPage">
+      <div>
+        <img src="./assets/crew/image-douglas-hurley.png" alt="Crew">
+        <hr>
+      </div>
       <div id="midPage">
         <p>Commander</p>
         <p>Douglas Hurley</p>
@@ -36,14 +40,16 @@
         </div>
       </div>
     </div>
-    <div>
-      <img src="./assets/crew/image-douglas-hurley.png" alt="Crew">
-    </div>
+
   </div>
 </body>
 </html>
 
 <script>
+  let line = document.querySelector("#flexPage>div:first-child>hr");
+  line.style.left = "20%";
+  line.style.top = "87%";
+
   let div1 = document.querySelector("#anc>div:nth-child(1)");
   div1.addEventListener("click",function(){
     div1.style.borderBottom = "3px solid white";

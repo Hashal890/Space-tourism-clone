@@ -23,6 +23,9 @@
 
   <div id="techPage">
     <h5>03 <span>Space launch 101</span></h5>
+    <div>
+      <img src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="launch">
+    </div>
     <div id="mainBody">
       <div id="num">
         <a href="./technology-vehicle.html">1</a>
@@ -34,13 +37,17 @@
         <p>Launch vehicle</p>
         <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
       </div>
-      <div><img src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="launch"></div>
+      
     </div>
   </div>
 </body>
 </html>
 
 <script>
+
+  let img = document.querySelector("#techPage img");
+  img.src = "./assets/technology/image-launch-vehicle-portrait.jpg";
+
   let div1 = document.querySelector("#anc>div:nth-child(1)");
   div1.addEventListener("click",function(){
     div1.style.borderBottom = "3px solid white";

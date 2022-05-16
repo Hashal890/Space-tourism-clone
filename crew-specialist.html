@@ -22,28 +22,36 @@
   </div>
 
   <div id="crewPage">
-    <div>
-      <h5>02<span>Meet your crew</span></h5>
-      <div id="midPage">
-        <p>Mission Specialist</p>
-        <p>Mark Shuttleworth</p>
-        <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
-        <div id="carousel">
-          <a href="./crew-commander.html"></a>
-          <a href="./crew-specialist.html"></a>
-          <a href="./crew-pilot.html"></a>
-          <a href="./crew-engineer.html"></a>
+    <h5>02<span>Meet your crew</span></h5>
+    <div id="flexPage">
+      <div>
+        <img src="./assets/crew/image-mark-shuttleworth.png" alt="Crew">
+        <hr>
+      </div>
+      <div>
+        <div id="midPage">
+          <p>Mission Specialist</p>
+          <p>Mark Shuttleworth</p>
+          <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+          <div id="carousel">
+            <a href="./crew-commander.html"></a>
+            <a href="./crew-specialist.html"></a>
+            <a href="./crew-pilot.html"></a>
+            <a href="./crew-engineer.html"></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div>
-      <img src="./assets/crew/image-mark-shuttleworth.png" alt="Crew">
+
     </div>
   </div>
 </body>
 </html>
 
 <script>
+  let line = document.querySelector("#flexPage>div:first-child>hr");
+  line.style.left = "20%";
+  line.style.top = "92.5%";
+
   let div1 = document.querySelector("#anc>div:nth-child(1)");
   div1.addEventListener("click",function(){
     div1.style.borderBottom = "3px solid white";
