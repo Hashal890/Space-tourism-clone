@@ -57,11 +57,11 @@ While creating webpage I'm facing issues about creating responsive webpage. So I
 
 ## Author
 
-- Linkdin - [Harshal Pardeshi](www.linkedin.com/in/HarshalPardeshi)
+- LinkedIn - [Harshal Pardeshi](www.linkedin.com/in/HarshalPardeshi)
 - Frontend Mentor - [@Hashal890](https://www.frontendmentor.io/profile/Hashal890)
 - Twitter - [@harshal258](https://twitter.com/harshal258)
 
 ## Acknowledgments
 
-One of my friend Rishabh Panesar help me for building this webpage by giving me motivation and giving me sources where I understood the path of creating webpage.
-Rishabh Panesar Linkdin - [Rishabh Panesar](https://www.linkedin.com/in/rishabh-panesar/)
+- One of my friend Rishabh Panesar help me for building this webpage by giving me motivation and giving me sources where I understood the path of creating webpage.
+- Rishabh Panesar LinkedIn - [Rishabh Panesar](https://www.linkedin.com/in/rishabh-panesar/)
