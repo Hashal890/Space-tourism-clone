@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-From this project I learnt about how to create a responsive webpage. Also I learnt about how to complete a project in given deadline.
+From this project I learnt about how to create a responsive webpage.
 
 ### Continued development
 
