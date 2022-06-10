@@ -57,6 +57,6 @@ While creating webpage I'm facing issues about creating responsive webpage. So I
 
 ## Author
 
-- LinkedIn - [Harshal Pardeshi](www.linkedin.com/in/HarshalPardeshi)
+- LinkedIn - (www.linkedin.com/in/HarshalPardeshi)
 - Frontend Mentor - [@Hashal890](https://www.frontendmentor.io/profile/Hashal890)
 - Twitter - [@harshal258](https://twitter.com/harshal258)
