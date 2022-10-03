@@ -17,15 +17,26 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
+## Overview of the challenge
 
-### The challenge
-
-Users should be able to:
+### Users should be able to:
 
 - View the optimal layout for each of the website's pages depending on their device's screen size
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
+
+
+## Screenshots
+
+### 1. Home Page
+![Home Page](./assets/solution/homePage.png)
+### 2. Destination Page
+![Login Page](./assets/solution/destinationPage.png)
+### 3. Crew Page
+![Signup Page](./assets/solution/crewPage.png)
+### 4. Technology Page
+![Dashboard Page](./assets/solution/technologyPage.png)
+
 
 ### Links
 
