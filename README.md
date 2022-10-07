@@ -15,7 +15,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview of the challenge
 
@@ -38,10 +37,10 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 ![Dashboard Page](./assets/solution/technologyPage.png)
 
 
-### Links
+## Links
 
-- Solution URL: [[Github Link](https://github.com/Hashal890/Space-tourism-website)]
-- Live Site URL: [[Netlify Link](https://space-tourism-123.netlify.app/)]
+- Solution URL: [Github Link](https://github.com/Hashal890/Space-tourism-website)
+- Live Site URL: [Netlify Link](https://space-tourism-123.netlify.app/)
 
 ## My process
 
@@ -60,14 +59,15 @@ From this project I learnt about how to create a responsive webpage.
 
 ### Continued development
 
-While creating webpage I'm facing issues about creating responsive webpage. So I will learn about bootstrap and tailwind css.
+While creating webpage I'm facing issues about creating responsive webpage. So I will learn about bootstrap and any component-based library.
 
 ### Useful resources
 
 - [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) - This helped me for creating responsive webpage.
 
+
 ## Author
 
-- LinkedIn - www.linkedin.com/in/HarshalPardeshi
-- Frontend Mentor - [@Hashal890](https://www.frontendmentor.io/profile/Hashal890)
-- Twitter - [@harshal258](https://twitter.com/harshal258)
+- [LinkedIn](www.linkedin.com/in/HarshalPardeshi)
+- [Twitter](https://twitter.com/harshal258)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/Hashal890)
